@@ -1,0 +1,10 @@
+.SearchBar{
+  padding: 16px 16px;
+  background: #ddde;
+  display: flex;
+  justify-content:space-between;
+  padding-right: 80px;
+}
+.SearchBar__heading{
+
+}

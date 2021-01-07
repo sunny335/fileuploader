@@ -1,0 +1,8 @@
+.FilterOptions{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.FilterOptions__option{
+  margin-right: 10px;
+}

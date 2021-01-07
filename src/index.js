@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const FILES = [
+  { fileType: 'jpg', size: '4.3MB', name: 'me on skis', status: 'Uploaded' },
+  { fileType: 'mov', size: '1.3GB', name: 'cats falli', status: 'Synced' },
+  { fileType: 'txt', size: '0.9KB', name: 'My Decembe', status: 'Uploaded' },
+  { fileType: 'mp3', size: '3.4MB', name: 'disturbed_', status: 'New' },
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App files={FILES} />
   </React.StrictMode>,
   document.getElementById('root')
 );
